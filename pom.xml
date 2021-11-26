@@ -102,13 +102,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>freestyle-testing-relaeses Nexus Repository</name>
-	      <url>http://65.1.93.20:8081/repository/freestyle-release/</url>
+	      <url>http://15.207.247.150:8081/repository/flipkart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>freestyle-testing-snapshot Nexus Repository</name>
-	      <url>http://65.1.93.20:8081/repository/freestyle-snapshot/</url>
+	      <url>http://15.207.247.150:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
