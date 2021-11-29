@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.126.175.45:9000/</sonar.host.url>
+		<sonar.host.url>http://3.110.174.104:9000/</sonar.host.url>
 		<sonar.login>427ff3fdec3925ecacd3e17c1fea4d54e2fdbb5c</sonar.login>
 		<!--
                	<sonar.login>admin</sonar.login>
@@ -101,14 +101,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>freestyle-testing-relaeses Nexus Repository</name>
-	      <url>http://15.207.111.60:8081/repository/freestyle-release/</url>
+	      <name>pipline-testing-relaeses Nexus Repository</name>
+	      <url>http://3.110.158.170:8081/repository/pipelinetesting-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>freestyle-testing-snapshot Nexus Repository</name>
-	      <url>http://15.207.111.60:8081/repository/freestyle-snapshot/</url>
+	      <name>pipeline-testing-snapshot Nexus Repository</name>
+	      <url>http://3.110.158.170:8081/repository/pipelinetesting-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
