@@ -24,7 +24,7 @@ stage ('build artifacts through nexus')
   {
      sshagent(['859ca495-01a0-4ad8-ae95-977adbe56dc9'])
   {
-    sh "scp -o  StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.127.157.202:/opt/apache-tomcat-9.0.54/webapps"
+    sh "scp -o  StrictHostKeyChecking=no target/maven-web-application.war ec2-user@65.2.35.176:/opt/apache-tomcat-9.0.54/webapps"
      }
 	 }
 }
