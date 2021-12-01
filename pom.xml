@@ -102,13 +102,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>pipline-testing-relaeses Nexus Repository</name>
-	      <url>http://13.233.73.151:8081/repository/freestyle-release/</url>
+	      <url>http://13.233.73.151:8081/repository/pipelinetesting-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>pipeline-testing-snapshot Nexus Repository</name>
-	      <url>http://13.233.73.151:8081/repository/freestyle-snapshot/</url>
+	      <url>http://13.233.73.151:8081/repository/pipelinetesting-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
